@@ -13,7 +13,7 @@ local function startswith(String, Start)
     return string.sub(String, 1, string.len(Start)) == Start
 end
 local acutil = require('acutil')
-g = {}
+local g = {}
 g.debug = true
 g.waitforend = nil
 g.totalcooldown = nil
